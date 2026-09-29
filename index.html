@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COCO XU — Portfolio</title>
+  <meta name="description" content="Coco Xu — Film / Media / AI Content Portfolio">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+SC:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">COCO<span>/</span>XU</a>
+    <nav>
+      <a href="#work">WORK</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="hero-top">
+        <span>FILM / MEDIA / AI CONTENT</span>
+        <span>PORTFOLIO — 2026</span>
+      </div>
+
+      <div class="hero-title">
+        <h1>STORIES<br><i>IN MOTION.</i></h1>
+      </div>
+
+      <div class="hero-bottom">
+        <p>影视内容 × 项目统筹 × 新媒体 × AI</p>
+        <a href="#work">SELECTED WORK ↓</a>
+      </div>
+    </section>
+
+
+    <!-- ================= WORK ================= -->
+    <section id="work" class="work-section">
+      <div class="section-head">
+        <span>01 / SELECTED WORK</span>
+      </div>
+
+      <div class="work-list">
+
+        <!-- 01 CCTV -->
+        <article class="work-item">
+          <div class="work-image">
+            <img src="images/春季美食令.jpg" alt="CCTV《谁知盘中餐》作品图片">
+            <span class="work-number">01</span>
+            <span class="work-type">TV / NEW MEDIA</span>
+          </div>
+          <div class="work-info">
+            <div>
+              <h2>《谁知盘中餐》</h2>
+              <p>CCTV-17 农业农村频道</p>
+            </div>
+            <button onclick="openProject('cctv')">VIEW PROJECT ↗</button>
+          </div>
+        </article>
+
+
+        <!-- 02 微信公众号 -->
+        <article class="work-item">
+          <div class="work-image">
+            <img src="images/公众号截图.jpg" alt="央视三农公众号作品图片">
+            <span class="work-number">02</span>
+            <span class="work-type">EDITORIAL / WECHAT</span>
+          </div>
+          <div class="work-info">
+            <div>
+              <h2>央视三农公众号</h2>
+              <p>《“声”动早餐》第二季</p>
+            </div>
+            <button onclick="openProject('wechat')">VIEW PROJECT ↗</button>
+          </div>
+        </article>
+
+
+        <!-- 03 8300 -->
+        <article class="work-item work-item-dark">
+          <div class="work-image">
+            <img src="images/8300.jpg" alt="《8300》微电影作品图片">
+            <span class="work-number">03</span>
+            <span class="work-type">SHORT FILM</span>
+          </div>
+          <div class="work-info">
+            <div>
+              <h2>《8300》</h2>
+              <p>微电影 / 影像作品</p>
+            </div>
+            <button onclick="openProject('8300')">VIEW PROJECT ↗</button>
+          </div>
+        </article>
+
+
+        <!-- 04 校园晚会 -->
+        <article class="work-item">
+          <div class="work-image">
+            <img src="images/无冬之夜海报.JPG" alt="校园晚会宣传片作品图片">
+            <span class="work-number">04</span>
+            <span class="work-type">VIDEO / CAMPUS</span>
+          </div>
+          <div class="work-info">
+            <div>
+              <h2>校园晚会宣传片</h2>
+              <p>学生社团联合会 / 视频制作</p>
+            </div>
+            <button onclick="openProject('campus')">VIEW PROJECT ↗</button>
+          </div>
+        </article>
+
+      <article class="work-card">
+          <div class="work-image">
+              <img src="images/天鹅.jpg" alt="电影故事项目">
+            <span class="work-number">05</span>
+            <span class="work-type">TEXT / FILM</span>
+          </div>
+          <div class="work-info">
+              <span class="work-number">05</span>
+              <h2>电影故事项目</h2>
+              <p>设想与计划</p>
+
+              <a href="projects/05-film-story.pdf" 
+                target="_blank" 
+                class="view-project">
+                  VIEW PROJECT →
+              </a>
+          </div>
+      </article>
+
+      <article class="work-card">
+          <div class="work-image">
+            <img src="images/花降.jpg" alt="电影故事项目">
+            <span class="work-number">06</span>
+            <span class="work-type">TEXT / FLIM</span>
+          </div>
+          <div class="work-info">
+              <span class="work-number">06</span>
+              <h2>电影故事项目</h2>
+              <p>设想与计划</p>
+              
+              <a href="projects/06-film-story.pdf" 
+                target="_blank" 
+                class="view-project">
+                  VIEW PROJECT →
+              </a>
+          </div>
+      </article>
+
+        <!-- 07 F1 -->
+        <article class="work-item work-item-dark">
+          <div class="work-image">
+            <img src="images/opening.png" alt="F1数据可视化新闻作品图片">
+            <span class="work-number">07</span>
+            <span class="work-type">DATA / WEB</span>
+          </div>
+          <div class="work-info">
+            <div>
+              <h2>The Path to the Top of F1</h2>
+              <p>数据可视化新闻 / Tableau / Web</p>
+            </div>
+            <a class="view-button" href="https://jzzcoco168-cell.github.io/The-path-to-the-top-of-F1-and-Opportunities-in-China/" target="_blank">OPEN PROJECT ↗</a>
+          </div>
+        </article>
+
+
+        <!-- 08 DDL -->
+        <article class="work-item">
+          <div class="work-image">
+            <img src="images/DDL.png" alt="DDL终极防御战游戏作品图片">
+            <span class="work-number">08</span>
+            <span class="work-type">PYTHON / GAME</span>
+          </div>
+          <div class="work-info">
+            <div>
+              <h2>《DDL 终极防御战》</h2>
+              <p>Python / Pygame / 游戏开发</p>
+            </div>
+            <button onclick="openProject('ddl')">VIEW PROJECT ↗</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="about-section">
+      <div class="section-head light">
+        <span>02 / ABOUT</span>
+        <p>关于我</p>
+      </div>
+
+      <div class="about-content">
+        <h2>CONTENT<br><span>THINKING.</span></h2>
+        <div class="about-text">
+          <p>我拥有广播电视编导、媒体管理与酒店管理的复合背景，关注影视内容、IP、新媒体与 AI 内容生产之间的连接。</p>
+          <p>从电视节目、短视频与微电影，到影视 IP、数据可视化、交互设计和 AI 影视内容项目，我更在意一个想法如何从<strong>故事</strong>走向<strong>作品</strong>。</p>
+        </div>
+
+        <div class="tags">
+          <span>FILM</span>
+          <span>IP</span>
+          <span>NEW MEDIA</span>
+          <span>AI CONTENT</span>
+          <span>PROJECT</span>
+          <span>DATA</span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="contact-section">
+      <div class="section-head">
+        <span>03 / CONTACT</span>
+        <p>联系我</p>
+      </div>
+
+      <h2>LET'S MAKE<br><i>SOMETHING.</i></h2>
+
+      <div class="contact-grid">
+        <div>
+          <small>EMAIL</small>
+          <a href="mailto:cocozuibang@163.com">cocozuibang@163.com</a>
+        </div>
+
+        <div>
+          <small>PHONE</small>
+          <a href="tel:13466546075">134 6654 6075/ 136 5102 8393</a>
+        </div>
+
+        <div>
+          <small>LOCATION</small>
+          <p>Hong Kong / Beijing</p>
+        </div>
+      </div>
+
+      <footer>
+        <span>COCO / XU</span>
+        <span>FILM · MEDIA · AI</span>
+        <span>© 2026</span>
+      </footer>
+    </section>
+
+  </main>
+
+
+  <!-- ================= PROJECT POPUP ================= -->
+  <div id="projectModal" class="modal">
+    <div class="modal-bg" onclick="closeProject()"></div>
+
+    <div class="modal-box">
+      <button class="close" onclick="closeProject()">×</button>
+
+      <div id="modalType"></div>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+
+      <div id="modalButtons" class="modal-buttons"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
